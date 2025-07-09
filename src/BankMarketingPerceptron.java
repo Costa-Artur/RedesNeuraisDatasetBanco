@@ -21,6 +21,8 @@ import org.neuroph.util.TransferFunctionType;
 /**
  * Rede Neural para prever se o cliente fará aplicação bancária
  * Baseado no dataset Bank Marketing
+ * Compilar: javac -cp "lib\*" src/BankMarketingPerceptron.java -d bin
+ * Executar: java -cp "lib\*;bin" BankMarketingPerceptron
  */
 public class BankMarketingPerceptron {
     
